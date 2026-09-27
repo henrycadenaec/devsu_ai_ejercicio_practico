@@ -6,6 +6,8 @@ movimientos conforme a la norma y registro auditable de la actividad del cliente
 
 **Autor:** Henry Cadena Herrera · **Versión 1.0** · 27 de septiembre de 2026
 
+![Diagrama de contexto](diagramas/C4-1-contexto.svg)
+
 ---
 
 ## Qué abrir
