@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2506" height="1374" viewBox="0 0 2506 1374" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3F4A57"/></marker><marker id="fo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#3F4A57" stroke-width="1.4"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Secuencia 4 · Notificacion de un movimiento</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">El disparador es el movimiento registrado en el Core, no la accion en la aplicacion (H-06)</text>
+<rect x="36" y="244" width="2124" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="262" font-size="12.5" font-weight="700" fill="#334155">1 · Origen del evento</text>
+<rect x="36" y="674" width="2124" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="692" font-size="12.5" font-weight="700" fill="#334155">2 · Entrega con conmutacion de proveedor</text>
+<rect x="36" y="1112" width="2124" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="1130" font-size="12.5" font-weight="700" fill="#334155">3 · Acuse y carga probatoria</text>
+<line x1="143.0" y1="184" x2="143.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="413.0" y1="184" x2="413.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="683.0" y1="184" x2="683.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="953.0" y1="184" x2="953.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1223.0" y1="184" x2="1223.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1493.0" y1="184" x2="1493.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1763.0" y1="184" x2="1763.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="2033.0" y1="184" x2="2033.0" y2="1288" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<rect x="887.0" y="724" width="672.0" height="170" rx="4" fill="none" stroke="#7C8B9A" stroke-width="1.6"/>
+<path d="M887.0,724 h44.8 l12,16 v0 h-56.8 z" fill="#E2E8F0" stroke="#7C8B9A" stroke-width="1.2"/>
+<text x="897.0" y="737" font-size="11.5" font-weight="700" fill="#334155">alt</text>
+<text x="961.8" y="737" font-size="11.5" font-style="italic" fill="#334155">el primario responde dentro del plazo</text>
+<line x1="887.0" y1="816" x2="1559.0" y2="816" stroke="#7C8B9A" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="893.0" y="818" width="254.0" height="17" fill="#FFFFFF"/>
+<text x="897.0" y="831" font-size="11.5" font-style="italic" fill="#334155">sin respuesta en 30 s o circuito abierto</text>
+<rect x="1486.5" y="862" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="946.5" y="514" width="13" height="768" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1216.5" y="770" width="13" height="512" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1756.5" y="978" width="13" height="304" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1756.5" y="1240" width="13" height="42" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<path d="M149.0,320 h56 v34 h-52" fill="none" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="213.0" y="324.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">Registra el movimiento:</text>
+<text x="213.0" y="337.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">cajero, comercio, abono o</text>
+<text x="213.0" y="350.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">transferencia</text>
+<line x1="149.5" y1="404" x2="406.5" y2="404" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<text x="278.0" y="383.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Captura de cambios</text>
+<text x="278.0" y="396.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[CDC · enlace privado]</text>
+<line x1="419.5" y1="462" x2="676.5" y2="462" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<text x="548.0" y="441.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Publica movimiento registrado</text>
+<text x="548.0" y="454.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[Kafka · mTLS · SASL]</text>
+<line x1="689.5" y1="520" x2="946.5" y2="520" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="818.0" y="499.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Consume el evento</text>
+<text x="818.0" y="512.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[Kafka · mTLS · SASL]</text>
+<path d="M959.0,578 h56 v34 h-52" fill="none" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1023.0" y="582.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">Deduplica por identificador</text>
+<text x="1023.0" y="595.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">de evento</text>
+<line x1="959.5" y1="776" x2="1216.5" y2="776" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1088.0" y="755.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Envia el aviso</text>
+<text x="1088.0" y="768.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS firmado · TLS]</text>
+<line x1="959.5" y1="868" x2="1486.5" y2="868" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1223.0" y="847.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Conmuta al proveedor alternativo</text>
+<text x="1223.0" y="860.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS firmado · TLS]</text>
+<line x1="1486.5" y1="926" x2="959.5" y2="926" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="1223.0" y="918.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Aceptado, con identificador de entrega</text>
+<line x1="959.5" y1="984" x2="1756.5" y2="984" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1358.0" y="963.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Registra destinatario, canal, proveedor e intentos</text>
+<text x="1358.0" y="976.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[AWS SDK · TLS · KMS]</text>
+<line x1="1499.5" y1="1042" x2="2026.5" y2="1042" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<text x="1763.0" y="1034.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Mensaje corto o correo electronico</text>
+<line x1="1486.5" y1="1188" x2="959.5" y2="1188" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<text x="1223.0" y="1167.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Acuse de entrega</text>
+<text x="1223.0" y="1180.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[Aviso firmado · HTTPS]</text>
+<line x1="959.5" y1="1246" x2="1756.5" y2="1246" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1358.0" y="1225.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Anexa el acuse al registro</text>
+<text x="1358.0" y="1238.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[AWS SDK · TLS · KMS]</text>
+<rect x="50.0" y="110" width="186" height="74" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="143.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Core Bancario</text>
+<text x="143.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema del banco]</text>
+<rect x="320.0" y="110" width="186" height="74" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="413.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Adaptador de Core</text>
+<text x="413.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Contenedor]</text>
+<rect x="590.0" y="110" width="186" height="74" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="683.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Bus de eventos</text>
+<text x="683.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Amazon MSK]</text>
+<rect x="860.0" y="110" width="186" height="74" rx="8" fill="#1168BD" stroke="#0B4884" stroke-width="2"/>
+<text x="953.0" y="136.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Servicio de</text>
+<text x="953.0" y="152.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Notificaciones</text>
+<text x="953.0" y="168.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Spring Boot]</text>
+<rect x="1130.0" y="110" width="186" height="74" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1223.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Proveedor primario</text>
+<text x="1223.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema externo]</text>
+<rect x="1400.0" y="110" width="186" height="74" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1493.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Proveedor alternativo</text>
+<text x="1493.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema externo]</text>
+<rect x="1670.0" y="110" width="186" height="74" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1763.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Evidencia</text>
+<text x="1763.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[S3 con Object Lock]</text>
+<rect x="1940.0" y="110" width="186" height="74" rx="8" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<text x="2033.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cliente</text>
+<text x="2033.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Persona natural]</text>
+<rect x="2176" y="466" width="284" height="88" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="2188" y="485" font-size="11" fill="#5B4A0E">H-06 · La norma obliga a notificar TODOS los</text>
+<text x="2188" y="499" font-size="11" fill="#5B4A0E">movimientos, no solo los ordenados desde el</text>
+<text x="2188" y="513" font-size="11" fill="#5B4A0E">canal. Si el disparador fuese la aplicacion,</text>
+<text x="2188" y="527" font-size="11" fill="#5B4A0E">quedarian sin avisar los de cajero, comercio y</text>
+<text x="2188" y="541" font-size="11" fill="#5B4A0E">abonos entrantes, que son la mayoria.</text>
+<rect x="2176" y="608" width="284" height="74" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="2188" y="627" font-size="11" fill="#5B4A0E">El bus entrega AL MENOS UNA VEZ: puede</text>
+<text x="2188" y="641" font-size="11" fill="#5B4A0E">reentregar. La deduplicacion es lo que impide</text>
+<text x="2188" y="655" font-size="11" fill="#5B4A0E">que el cliente reciba dos avisos del mismo</text>
+<text x="2188" y="669" font-size="11" fill="#5B4A0E">movimiento.</text>
+<rect x="2176" y="1046" width="284" height="88" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="2188" y="1065" font-size="11" fill="#5B4A0E">ADR-36 · La conmutacion solo aporta algo si las</text>
+<text x="2188" y="1079" font-size="11" fill="#5B4A0E">dos rutas son INDEPENDIENTES: dos proveedores</text>
+<text x="2188" y="1093" font-size="11" fill="#5B4A0E">sobre la misma infraestructura fallarian a la</text>
+<text x="2188" y="1107" font-size="11" fill="#5B4A0E">vez. Lo que se exige por contrato es diversidad</text>
+<text x="2188" y="1121" font-size="11" fill="#5B4A0E">de ruta, no pluralidad de contratos.</text>
+<rect x="2176" y="1250" width="284" height="88" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="2188" y="1269" font-size="11" fill="#5B4A0E">ADR-37 · La evidencia del envio se conserva 7</text>
+<text x="2188" y="1283" font-size="11" fill="#5B4A0E">anos; el contenido del mensaje, 12 meses. Se</text>
+<text x="2188" y="1297" font-size="11" fill="#5B4A0E">satisface la carga probatoria ante una</text>
+<text x="2188" y="1311" font-size="11" fill="#5B4A0E">reclamacion sin retener datos personales mas</text>
+<text x="2188" y="1325" font-size="11" fill="#5B4A0E">tiempo del necesario.</text>
+</svg>

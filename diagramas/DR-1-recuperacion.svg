@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2380" height="1360" viewBox="0 0 2380 1360" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Recuperacion ante Desastres · piloto encendido entre regiones</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">Objetivo de punto de recuperacion inferior a 5 minutos · objetivo de tiempo de recuperacion inferior a 60 minutos</text>
+<rect x="60" y="245" width="980" height="760" rx="10" fill="none" stroke="#1168BD" stroke-width="2"/>
+<text x="74" y="269" font-size="13" font-weight="600" fill="#1168BD">Region primaria · sa-east-1 · activa</text>
+<rect x="1300" y="245" width="980" height="760" rx="10" fill="none" stroke="#1168BD" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="1314" y="269" font-size="13" font-weight="600" fill="#1168BD">Region secundaria · us-east-1 · piloto encendido</text>
+<line x1="1015.0" y1="434.0" x2="1325.0" y2="434.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1101.4" y="417.0" width="137.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1170.0" y="432.0" font-size="10.5" fill="#374151" text-anchor="middle">Replicacion continua</text>
+<text x="1170.0" y="445.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[Retraso tipico &lt; 1 s]</text>
+<line x1="1015.0" y1="534.0" x2="1325.0" y2="534.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1098.6" y="517.0" width="142.8" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1170.0" y="532.0" font-size="10.5" fill="#374151" text-anchor="middle">Temas espejo</text>
+<text x="1170.0" y="545.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[Mismo orden por clave]</text>
+<line x1="1015.0" y1="634.0" x2="1325.0" y2="634.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1115.4" y="610.5" width="109.2" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1170.0" y="625.5" font-size="10.5" fill="#374151" text-anchor="middle">Replicacion entre</text>
+<text x="1170.0" y="638.5" font-size="10.5" fill="#374151" text-anchor="middle">regiones</text>
+<text x="1170.0" y="651.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[Minutos]</text>
+<line x1="1015.0" y1="734.0" x2="1325.0" y2="734.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1129.4" y="717.0" width="81.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1170.0" y="732.0" font-size="10.5" fill="#374151" text-anchor="middle">Tabla global</text>
+<text x="1170.0" y="745.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[Segundos]</text>
+<line x1="1015.0" y1="834.0" x2="1325.0" y2="834.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1104.2" y="823.5" width="131.6" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1170.0" y="838.5" font-size="10.5" fill="#374151" text-anchor="middle">Mismo codigo aplicado</text>
+<line x1="1015.0" y1="934.0" x2="1325.0" y2="934.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1098.6" y="923.5" width="142.8" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1170.0" y="938.5" font-size="10.5" fill="#374151" text-anchor="middle">Copia en cuenta aislada</text>
+<line x1="940.0" y1="195.0" x2="550.0" y2="290.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="698.8" y="232.0" width="92.4" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="745.0" y="247.0" font-size="10.5" fill="#374151" text-anchor="middle">Trafico normal</text>
+<line x1="1440.0" y1="195.0" x2="1790.0" y2="290.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1560.4" y="232.0" width="109.2" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1615.0" y="247.0" font-size="10.5" fill="#374151" text-anchor="middle">Conmuta al fallar</text>
+<rect x="790" y="95" width="800" height="100" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1190.0" y="136.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Enrutado de nombres con verificacion de salud</text>
+<text x="1190.0" y="154.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Amazon Route 53]</text>
+<text x="1190.0" y="169.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Conmuta cuando la region primaria deja de responder</text>
+<rect x="85" y="290" width="930" height="88" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="331.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Amazon EKS · capacidad completa</text>
+<text x="550.0" y="349.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Todos los servicios]</text>
+<rect x="1325" y="290" width="930" height="88" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="325.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Amazon EKS · capacidad minima</text>
+<text x="1790.0" y="343.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Plano de control y un nodo por servicio]</text>
+<text x="1790.0" y="358.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Escala al activarse</text>
+<path d="M85,404 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="550.0" cy="404" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="440.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Aurora PostgreSQL</text>
+<text x="550.0" y="458.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Escritor y lectores]</text>
+<path d="M1325,404 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1790.0" cy="404" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="440.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Aurora Global Database</text>
+<text x="1790.0" y="458.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Replica promovible]</text>
+<path d="M85,504 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="550.0" cy="504" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="540.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Amazon MSK</text>
+<text x="550.0" y="558.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Tres agentes]</text>
+<path d="M1325,504 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1790.0" cy="504" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="540.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">MSK con temas espejo</text>
+<text x="1790.0" y="558.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Replicacion continua]</text>
+<path d="M85,604 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="550.0" cy="604" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="640.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">S3 con Object Lock</text>
+<text x="550.0" y="658.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Evidencia y archivo]</text>
+<path d="M1325,604 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1790.0" cy="604" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="640.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">S3 replicado</text>
+<text x="1790.0" y="658.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Misma retencion y mismo bloqueo]</text>
+<path d="M85,704 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="550.0" cy="704" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="740.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">DynamoDB</text>
+<text x="550.0" y="758.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Claves de idempotencia]</text>
+<path d="M1325,704 a465,14 0 0,1 930,0 l0,60 a465,14 0 0,1 -930,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1790.0" cy="704" rx="465" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="740.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">DynamoDB global</text>
+<text x="1790.0" y="758.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Tabla multirregion]</text>
+<rect x="85" y="790" width="930" height="88" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="831.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Infraestructura declarada como codigo</text>
+<text x="550.0" y="849.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Un solo repositorio para ambas regiones]</text>
+<rect x="1325" y="790" width="930" height="88" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="825.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Misma definicion aplicada</text>
+<text x="1790.0" y="843.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Desplegada en cada cambio]</text>
+<text x="1790.0" y="858.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">La region secundaria no se improvisa el dia del fallo</text>
+<rect x="85" y="890" width="930" height="88" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="550.0" y="931.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Copias con bloqueo de borrado</text>
+<text x="550.0" y="949.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Retencion independiente de la cuenta]</text>
+<rect x="1325" y="890" width="930" height="88" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1790.0" y="931.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Copia de las copias</text>
+<text x="1790.0" y="949.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Cuenta separada, solo lectura]</text>
+<rect x="60" y="1040" width="1110" height="104" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1060" font-size="11" fill="#5B4A0E">PILOTO ENCENDIDO Y NO COPIA FRIA: la region secundaria ejecuta permanentemente el plano de control y una instancia minima de cada servicio. Es lo que permite comprometer una recuperacion en</text>
+<text x="71" y="1074" font-size="11" fill="#5B4A0E">menos de una hora: no hay que construir nada, solo escalar lo que ya esta funcionando (ADR-42).</text>
+<rect x="1210" y="1040" width="1110" height="104" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1221" y="1060" font-size="11" fill="#5B4A0E">POR QUE NO ACTIVO-ACTIVO: dos regiones aceptando escrituras exigirian resolver conflictos sobre saldos, que es justamente el dato que no admite ambiguedad. El sobrecoste permanente tampoco se</text>
+<text x="1221" y="1074" font-size="11" fill="#5B4A0E">justifica frente a un objetivo de una hora. Se descarta de forma consciente, no por omision.</text>
+<rect x="60" y="1170" width="1110" height="104" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1190" font-size="11" fill="#5B4A0E">LA PRUEBA FORMA PARTE DEL DISENO: la conmutacion se ensaya con periodicidad establecida y su resultado se registra. Un plan de recuperacion que nunca se ha ejecutado es una hipotesis, no un</text>
+<text x="71" y="1204" font-size="11" fill="#5B4A0E">control: el supervisor pide evidencia del ensayo, no del documento.</text>
+<rect x="1210" y="1170" width="1110" height="104" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1221" y="1190" font-size="11" fill="#5B4A0E">QUE SE PIERDE EN EL PEOR CASO: hasta cinco minutos de escrituras confirmadas. Las operaciones monetarias en vuelo quedan en un estado consultable gracias a la saga y a la clave de idempotencia;</text>
+<text x="1221" y="1204" font-size="11" fill="#5B4A0E">ninguna queda en un limbo sin registro (ADR-33, ADR-34).</text>
+</svg>

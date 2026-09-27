@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2076" height="1692" viewBox="0 0 2076 1692" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3F4A57"/></marker><marker id="fo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#3F4A57" stroke-width="1.4"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Secuencia 1 · Vinculacion del cliente con reconocimiento facial</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">El canal no participa en la verificacion: la consume ya resuelta (ADR-17, ADR-18)</text>
+<rect x="36" y="244" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="262" font-size="12.5" font-weight="700" fill="#334155">1 · Apertura de la solicitud</text>
+<rect x="36" y="622" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="640" font-size="12.5" font-weight="700" fill="#334155">2 · Captura biometrica — no atraviesa el banco</text>
+<rect x="36" y="968" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="986" font-size="12.5" font-weight="700" fill="#334155">3 · Alta del cliente y provision de la identidad</text>
+<rect x="36" y="1372" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="1390" font-size="12.5" font-weight="700" fill="#334155">4 · Primer acceso</text>
+<line x1="148.0" y1="184" x2="148.0" y2="1606" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="438.0" y1="184" x2="438.0" y2="1606" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="728.0" y1="184" x2="728.0" y2="1606" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1018.0" y1="184" x2="1018.0" y2="1606" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1308.0" y1="184" x2="1308.0" y2="1606" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1598.0" y1="184" x2="1598.0" y2="1606" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<rect x="372.0" y="1018" width="1292.0" height="310" rx="4" fill="none" stroke="#7C8B9A" stroke-width="1.6"/>
+<path d="M372.0,1018 h44.8 l12,16 v0 h-56.8 z" fill="#E2E8F0" stroke="#7C8B9A" stroke-width="1.2"/>
+<text x="382.0" y="1031" font-size="11.5" font-weight="700" fill="#334155">alt</text>
+<text x="446.8" y="1031" font-size="11.5" font-style="italic" fill="#334155">veredicto favorable (si no, se deriva a canal presencial)</text>
+<rect x="1011.5" y="430" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="721.5" y="372" width="13" height="186" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1591.5" y="1064" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1301.5" y="1180" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1301.5" y="1442" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="431.5" y="692" width="13" height="878" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="431.5" y="314" width="13" height="1286" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1011.5" y="750" width="13" height="850" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<line x1="154.5" y1="320" x2="431.5" y2="320" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="293.0" y="312.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Inicia la vinculacion</text>
+<line x1="444.5" y1="378" x2="721.5" y2="378" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="583.0" y="357.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Solicita una sesion de vinculacion</text>
+<text x="583.0" y="370.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS · TLS 1.3]</text>
+<line x1="734.5" y1="436" x2="1011.5" y2="436" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="873.0" y="415.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Crea la sesion de verificacion</text>
+<text x="873.0" y="428.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[REST · mTLS]</text>
+<line x1="1011.5" y1="494" x2="734.5" y2="494" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="873.0" y="486.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Testigo de sesion de un solo uso</text>
+<line x1="721.5" y1="552" x2="444.5" y2="552" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="583.0" y="544.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Testigo de sesion</text>
+<line x1="154.5" y1="698" x2="431.5" y2="698" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="293.0" y="690.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Presenta el documento y su rostro</text>
+<line x1="444.5" y1="756" x2="1011.5" y2="756" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="728.0" y="735.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Envia la captura directamente al proveedor</text>
+<text x="728.0" y="748.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS · TLS 1.3 · SDK certificado]</text>
+<path d="M1024.0,814 h56 v34 h-52" fill="none" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1088.0" y="818.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">Prueba de vida y cotejo</text>
+<text x="1088.0" y="831.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="start">documento-rostro</text>
+<text x="1088.0" y="844.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="start">[ISO/IEC 30107-3]</text>
+<line x1="1011.5" y1="898" x2="734.5" y2="898" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<text x="873.0" y="877.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Veredicto y nivel de aseguramiento alcanzado</text>
+<text x="873.0" y="890.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[Aviso firmado · HTTPS]</text>
+<line x1="734.5" y1="1070" x2="1591.5" y2="1070" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1163.0" y="1049.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Comprueba o crea al cliente</text>
+<text x="1163.0" y="1062.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[MQ · enlace privado]</text>
+<line x1="1591.5" y1="1128" x2="734.5" y2="1128" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="1163.0" y="1120.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Identificador de cliente</text>
+<line x1="734.5" y1="1186" x2="1301.5" y2="1186" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1018.0" y="1165.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Provisiona la identidad con su nivel IAL</text>
+<text x="1018.0" y="1178.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[SCIM 2.0 · mTLS]</text>
+<line x1="1301.5" y1="1244" x2="734.5" y2="1244" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="1018.0" y="1236.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Identidad creada</text>
+<line x1="721.5" y1="1302" x2="444.5" y2="1302" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="583.0" y="1294.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Vinculacion completada</text>
+<line x1="444.5" y1="1448" x2="1301.5" y2="1448" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="873.0" y="1427.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Registra el factor del dispositivo</text>
+<text x="873.0" y="1440.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[OIDC · PKCE · TLS 1.3]</text>
+<line x1="1301.5" y1="1506" x2="444.5" y2="1506" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="873.0" y="1498.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Identidad lista para autenticar</text>
+<line x1="431.5" y1="1564" x2="154.5" y2="1564" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="293.0" y="1556.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Acceso disponible</text>
+<rect x="50.0" y="110" width="196" height="74" rx="8" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<text x="148.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cliente</text>
+<text x="148.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Persona natural]</text>
+<rect x="340.0" y="110" width="196" height="74" rx="8" fill="#1168BD" stroke="#0B4884" stroke-width="2"/>
+<text x="438.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Aplicacion Movil</text>
+<text x="438.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Flutter]</text>
+<rect x="630.0" y="110" width="196" height="74" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="728.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Plataforma de Onboarding</text>
+<text x="728.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema del banco]</text>
+<rect x="920.0" y="110" width="196" height="74" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1018.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Proveedor de Verificacion</text>
+<text x="1018.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema externo]</text>
+<rect x="1210.0" y="110" width="196" height="74" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="1308.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Producto de Identidad</text>
+<text x="1308.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema del banco]</text>
+<rect x="1500.0" y="110" width="196" height="74" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="1598.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Core Bancario</text>
+<text x="1598.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema del banco]</text>
+<rect x="1746" y="556" width="284" height="74" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="575" font-size="11" fill="#5B4A0E">El testigo es de un solo uso y caducidad corta.</text>
+<text x="1758" y="589" font-size="11" fill="#5B4A0E">La aplicacion nunca recibe credenciales del</text>
+<text x="1758" y="603" font-size="11" fill="#5B4A0E">proveedor: recibe permiso para una sesion</text>
+<text x="1758" y="617" font-size="11" fill="#5B4A0E">concreta.</text>
+<rect x="1746" y="760" width="284" height="102" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="779" font-size="11" fill="#5B4A0E">H-26 · La imagen biometrica NO pasa por el canal</text>
+<text x="1758" y="793" font-size="11" fill="#5B4A0E">ni se almacena en el banco. El banco recibe el</text>
+<text x="1758" y="807" font-size="11" fill="#5B4A0E">VEREDICTO y el nivel de aseguramiento alcanzado,</text>
+<text x="1758" y="821" font-size="11" fill="#5B4A0E">no el dato biometrico. Es lo que reduce el</text>
+<text x="1758" y="835" font-size="11" fill="#5B4A0E">alcance de proteccion de datos y evita custodiar</text>
+<text x="1758" y="849" font-size="11" fill="#5B4A0E">un dato irrevocable (ADR-18, LOPDP).</text>
+<rect x="1746" y="902" width="284" height="74" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="921" font-size="11" fill="#5B4A0E">El aviso entrante se trata como entrada NO</text>
+<text x="1758" y="935" font-size="11" fill="#5B4A0E">confiable: se verifica la firma del cuerpo, la</text>
+<text x="1758" y="949" font-size="11" fill="#5B4A0E">marca temporal y el identificador de evento</text>
+<text x="1758" y="963" font-size="11" fill="#5B4A0E">antes de procesarlo (ADR-22).</text>
+<rect x="1746" y="1306" width="284" height="88" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="1325" font-size="11" fill="#5B4A0E">NIST SP 800-63 · El nivel IAL alcanzado en este</text>
+<text x="1758" y="1339" font-size="11" fill="#5B4A0E">momento condiciona despues el nivel AAL exigible</text>
+<text x="1758" y="1353" font-size="11" fill="#5B4A0E">en cada operacion. Vincular la identidad con una</text>
+<text x="1758" y="1367" font-size="11" fill="#5B4A0E">verificacion debil y despues exigir</text>
+<text x="1758" y="1381" font-size="11" fill="#5B4A0E">autenticacion fuerte no corrige el origen.</text>
+<rect x="1746" y="1568" width="284" height="102" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="1587" font-size="11" fill="#5B4A0E">A partir de aqui el canal solo USA la identidad;</text>
+<text x="1758" y="1601" font-size="11" fill="#5B4A0E">establecerla fue responsabilidad del onboarding.</text>
+<text x="1758" y="1615" font-size="11" fill="#5B4A0E">Separar ambas cosas permite cambiar de proveedor</text>
+<text x="1758" y="1629" font-size="11" fill="#5B4A0E">de verificacion sin tocar el canal, y que</text>
+<text x="1758" y="1643" font-size="11" fill="#5B4A0E">oficina y web reutilicen el mismo proceso</text>
+<text x="1758" y="1657" font-size="11" fill="#5B4A0E">(H-20).</text>
+</svg>

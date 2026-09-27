@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1380" viewBox="0 0 2400 1380" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Patrones de Diseno · caches, clientes frecuentes y niveles de auditoria</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">Respuesta a la frase ambigua del enunciado: se cubren sus tres lecturas y se muestra que componentes interactuan y bajo que patron</text>
+<rect x="60" y="110" width="2280" height="210" rx="10" fill="none" stroke="#B45309" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="74" y="134" font-size="13" font-weight="600" fill="#B45309">La frase &quot;mecanismo de persistencia de informacion para clientes frecuentes&quot; admite tres lecturas — se cubren las tres</text>
+<rect x="60" y="380" width="2280" height="190" rx="10" fill="none" stroke="#1168BD" stroke-width="2"/>
+<text x="74" y="404" font-size="13" font-weight="600" fill="#1168BD">Capa 1 · Cache de datos de cliente — atiende la lectura (a)</text>
+<rect x="60" y="590" width="2280" height="190" rx="10" fill="none" stroke="#065F46" stroke-width="2"/>
+<text x="74" y="614" font-size="13" font-weight="600" fill="#065F46">Capa 2 · Preferencias y beneficiarios — atiende la lectura (c)</text>
+<rect x="60" y="800" width="2280" height="190" rx="10" fill="none" stroke="#0E7490" stroke-width="2"/>
+<text x="74" y="824" font-size="13" font-weight="600" fill="#0E7490">Capa 3 · Invalidacion, precalentamiento y niveles — atiende la lectura (b)</text>
+<line x1="530.0" y1="486.0" x2="660.0" y2="486.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="565.6" y="475.5" width="58.8" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="595.0" y="490.5" font-size="10.5" fill="#374151" text-anchor="middle">Alimenta</text>
+<line x1="1100.0" y1="486.0" x2="1230.0" y2="486.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1113.2" y="475.5" width="103.6" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1165.0" y="490.5" font-size="10.5" fill="#374151" text-anchor="middle">Marca al cliente</text>
+<line x1="1670.0" y1="486.0" x2="1800.0" y2="486.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1694.4" y="475.5" width="81.2" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1735.0" y="490.5" font-size="10.5" fill="#374151" text-anchor="middle">Lee y puebla</text>
+<line x1="530.0" y1="696.0" x2="660.0" y2="696.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="543.2" y="685.5" width="103.6" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="595.0" y="700.5" font-size="10.5" fill="#374151" text-anchor="middle">Consulta y edita</text>
+<line x1="1100.0" y1="696.0" x2="1230.0" y2="696.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1135.6" y="685.5" width="58.8" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1165.0" y="700.5" font-size="10.5" fill="#374151" text-anchor="middle">Persiste</text>
+<line x1="530.0" y1="906.0" x2="660.0" y2="906.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="543.2" y="895.5" width="103.6" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="595.0" y="910.5" font-size="10.5" fill="#374151" text-anchor="middle">Evento de cambio</text>
+<line x1="1100.0" y1="906.0" x2="1230.0" y2="906.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1118.8" y="895.5" width="92.4" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1165.0" y="910.5" font-size="10.5" fill="#374151" text-anchor="middle">Tras invalidar</text>
+<line x1="1670.0" y1="906.0" x2="1800.0" y2="906.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1688.8" y="889.0" width="92.4" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1735.0" y="904.0" font-size="10.5" fill="#374151" text-anchor="middle">Misma senal de</text>
+<text x="1735.0" y="917.0" font-size="10.5" fill="#374151" text-anchor="middle">frecuencia</text>
+<rect x="90" y="155" width="650" height="140" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="415.0" y="223.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Lectura (a) · rendimiento</text>
+<text x="415.0" y="242.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Guardar los datos de quienes mas usan el canal para responder rapido y no castigar al Core</text>
+<rect x="880" y="155" width="650" height="140" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1205.0" y="223.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Lectura (b) · niveles de auditoria</text>
+<text x="1205.0" y="242.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Separar el periodo reciente consultable del archivo historico de los clientes con mas actividad</text>
+<rect x="1670" y="155" width="650" height="140" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1995.0" y="223.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Lectura (c) · beneficiarios frecuentes</text>
+<text x="1995.0" y="242.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Conservar los destinatarios habituales de transferencias del propio cliente</text>
+<rect x="90" y="420" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="310.0" y="477.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Interceptor del BFF</text>
+<text x="310.0" y="495.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Interceptor]</text>
+<text x="310.0" y="510.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Registra cada acceso sin que el desarrollador intervenga</text>
+<rect x="660" y="420" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="880.0" y="477.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Clasificador de frecuencia</text>
+<text x="880.0" y="495.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Strategy]</text>
+<text x="880.0" y="510.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Frecuente = 8 o mas sesiones en 30 dias</text>
+<rect x="1230" y="420" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1450.0" y="477.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Servicio de Cliente</text>
+<text x="1450.0" y="495.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Cache-Aside]</text>
+<text x="1450.0" y="510.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Consulta la cache; si falla, consulta el origen y la puebla</text>
+<path d="M1800,434 a220,14 0 0,1 440,0 l0,104 a220,14 0 0,1 -440,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="2020.0" cy="434" rx="220" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="2020.0" y="486.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Cache distribuida</text>
+<text x="2020.0" y="504.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[ElastiCache Redis]</text>
+<text x="2020.0" y="519.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Coherente entre instancias; sobrevive al reemplazo</text>
+<rect x="90" y="630" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="310.0" y="687.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Aplicacion de canal</text>
+<text x="310.0" y="705.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Web y movil]</text>
+<text x="310.0" y="720.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Muestra y edita los destinatarios habituales</text>
+<rect x="660" y="630" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="880.0" y="687.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Servicio de Preferencias y Frecuentes</text>
+<text x="880.0" y="705.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Repository]</text>
+<text x="880.0" y="720.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Unico conjunto del que el canal ES sistema de registro</text>
+<path d="M1230,644 a220,14 0 0,1 440,0 l0,104 a220,14 0 0,1 -440,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1450.0" cy="644" rx="220" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1450.0" y="696.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Base de preferencias</text>
+<text x="1450.0" y="714.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Aurora PostgreSQL]</text>
+<text x="1450.0" y="729.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Beneficiarios, alias y canales de aviso</text>
+<rect x="1800" y="630" width="440" height="132" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="2020.0" y="687.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Dato autoritativo del canal</text>
+<text x="2020.0" y="705.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[No vulnera RES-01]</text>
+<text x="2020.0" y="720.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Estos datos NO existen en el Core: no se duplican, se originan aqui</text>
+<rect x="90" y="840" width="440" height="132" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="310.0" y="897.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Bus de eventos</text>
+<text x="310.0" y="915.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Amazon MSK]</text>
+<text x="310.0" y="930.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Publica todo cambio de cliente y de movimiento</text>
+<rect x="660" y="840" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="880.0" y="897.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Consumidor de invalidacion</text>
+<text x="880.0" y="915.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Publisher-Subscriber]</text>
+<text x="880.0" y="930.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Retira de la cache de la Capa 1 la entrada afectada por el cambio</text>
+<rect x="1230" y="840" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1450.0" y="897.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Precalentamiento selectivo</text>
+<text x="1450.0" y="915.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Cache warming]</text>
+<text x="1450.0" y="930.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Precarga en la Capa 1 la primera pantalla del cliente frecuente</text>
+<rect x="1800" y="840" width="440" height="132" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="2020.0" y="897.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Niveles de la auditoria</text>
+<text x="2020.0" y="915.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Hot / Cold Tiering]</text>
+<text x="2020.0" y="930.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">24 meses en acceso inmediato, 7 anos en archivo probatorio</text>
+<rect x="60" y="1010" width="1120" height="50" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1030" font-size="11" fill="#5B4A0E">LAS DOS FLECHAS QUE NO SE DIBUJAN: el consumidor de invalidacion y el precalentamiento actuan AMBOS sobre la cache distribuida de la Capa 1. No se trazan como linea porque tendrian que atravesar</text>
+<text x="71" y="1044" font-size="11" fill="#5B4A0E">las cajas de la Capa 2, y una flecha que cruza cajas se lee peor que una frase.</text>
+<rect x="60" y="1090" width="1120" height="50" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1110" font-size="11" fill="#5B4A0E">POR QUE INVALIDAR POR EVENTO Y NO SOLO POR CADUCIDAD: una caducidad corta reduce el riesgo de servir datos obsoletos a costa de la tasa de acierto; una larga mejora el acierto a costa de mostrar</text>
+<text x="71" y="1124" font-size="11" fill="#5B4A0E">datos viejos. La invalidacion dirigida por el cambio elimina el dilema: permite caducidades amplias porque la entrada se retira en cuanto se conoce que el dato cambio (ADR-29).</text>
+<rect x="1220" y="1090" width="1120" height="64" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1231" y="1110" font-size="11" fill="#5B4A0E">LA DISTINCION QUE RESUELVE LA AMBIGUEDAD: la capa 1 guarda COPIAS SIN AUTORIDAD, desechables y reconstruibles; la capa 2 guarda DATO PROPIO DEL CANAL, del que no existe original en el Core.</text>
+<text x="1231" y="1124" font-size="11" fill="#5B4A0E">Confundirlas es el error conceptual que subyace a la frase del enunciado: trataria como desechable un dato que no lo es, o duplicaria en el canal informacion cuyo sistema de registro es el Core</text>
+<text x="1231" y="1138" font-size="11" fill="#5B4A0E">(RES-01).</text>
+<rect x="60" y="1230" width="2280" height="50" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1250" font-size="11" fill="#5B4A0E">LO QUE NUNCA SE CACHEA: el saldo disponible en el instante de autorizar una transferencia y la decision de riesgo. Ambos se consultan siempre en su origen, porque servir un valor de hace treinta segundos podria admitir una operacion sin fondos o aplicar una politica ya revocada. La cache acelera la CONSULTA, nunca la DECISION. Trazabilidad: H-05 · RF-10 · ADR-29 · ADR-28 · ADR-32 · criterios 4 y 7 de</text>
+<text x="71" y="1264" font-size="11" fill="#5B4A0E">evaluacion.</text>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2076" height="1694" viewBox="0 0 2076 1694" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3F4A57"/></marker><marker id="fo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#3F4A57" stroke-width="1.4"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Secuencia 2 · Autenticacion del canal web y elevacion por operacion</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">Codigo de autorizacion con PKCE, credencial custodiada en servidor y nivel exigido por riesgo</text>
+<rect x="36" y="244" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="262" font-size="12.5" font-weight="700" fill="#334155">1 · Inicio del flujo de autorizacion</text>
+<rect x="36" y="680" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="698" font-size="12.5" font-weight="700" fill="#334155">2 · Canje y custodia de la credencial</text>
+<rect x="36" y="1058" width="1694" height="26" rx="5" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="50" y="1076" font-size="12.5" font-weight="700" fill="#334155">3 · Elevacion exigida por la operacion</text>
+<line x1="148.0" y1="184" x2="148.0" y2="1608" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="438.0" y1="184" x2="438.0" y2="1608" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="728.0" y1="184" x2="728.0" y2="1608" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1018.0" y1="184" x2="1018.0" y2="1608" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1308.0" y1="184" x2="1308.0" y2="1608" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="1598.0" y1="184" x2="1598.0" y2="1608" stroke="#9AA5B1" stroke-width="1.4" stroke-dasharray="6 5"/>
+<rect x="372.0" y="1166" width="1292.0" height="252" rx="4" fill="none" stroke="#7C8B9A" stroke-width="1.6"/>
+<path d="M372.0,1166 h44.8 l12,16 v0 h-56.8 z" fill="#E2E8F0" stroke="#7C8B9A" stroke-width="1.2"/>
+<text x="382.0" y="1179" font-size="11.5" font-weight="700" fill="#334155">alt</text>
+<text x="446.8" y="1179" font-size="11.5" font-style="italic" fill="#334155">el nivel de la sesion es insuficiente (si ya lo alcanza, continua)</text>
+<rect x="721.5" y="372" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1301.5" y="546" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1301.5" y="808" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="721.5" y="750" width="13" height="244" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1591.5" y="1270" width="13" height="70" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="721.5" y="1212" width="13" height="186" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="431.5" y="314" width="13" height="1288" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="431.5" y="1128" width="13" height="474" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1301.5" y="488" width="13" height="1114" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1301.5" y="1444" width="13" height="158" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<rect x="1011.5" y="924" width="13" height="678" rx="2" fill="#D6E4F5" stroke="#5D82A8" stroke-width="1.2"/>
+<line x1="154.5" y1="320" x2="431.5" y2="320" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="293.0" y="312.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Abre la banca por internet</text>
+<line x1="444.5" y1="378" x2="721.5" y2="378" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="583.0" y="357.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Solicita el estado de sesion</text>
+<text x="583.0" y="370.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS · mTLS]</text>
+<line x1="721.5" y1="436" x2="444.5" y2="436" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="583.0" y="428.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Sin sesion: direccion de autorizacion</text>
+<line x1="444.5" y1="494" x2="1301.5" y2="494" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="873.0" y="473.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Redirige con reto de codigo (code_challenge)</text>
+<text x="873.0" y="486.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[OIDC · PKCE · TLS 1.3]</text>
+<line x1="154.5" y1="552" x2="1301.5" y2="552" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="728.0" y="544.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Se autentica con sus factores</text>
+<line x1="1301.5" y1="610" x2="444.5" y2="610" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="873.0" y="602.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Devuelve el codigo de autorizacion</text>
+<line x1="444.5" y1="756" x2="721.5" y2="756" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="583.0" y="735.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Entrega el codigo</text>
+<text x="583.0" y="748.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS · mTLS]</text>
+<line x1="734.5" y1="814" x2="1301.5" y2="814" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1018.0" y="793.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Canjea codigo y verificador</text>
+<text x="1018.0" y="806.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[OAuth 2.0 · mTLS]</text>
+<line x1="1301.5" y1="872" x2="734.5" y2="872" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="1018.0" y="864.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Credencial de acceso, de refresco y nivel AAL</text>
+<line x1="734.5" y1="930" x2="1011.5" y2="930" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="873.0" y="909.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Guarda la credencial del lado del servidor</text>
+<text x="873.0" y="922.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[TLS]</text>
+<line x1="721.5" y1="988" x2="444.5" y2="988" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="583.0" y="967.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Cookie de sesion: HttpOnly, SameSite y</text>
+<text x="583.0" y="980.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Secure</text>
+<line x1="154.5" y1="1134" x2="431.5" y2="1134" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="293.0" y="1126.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Ordena una transferencia de importe alto</text>
+<line x1="444.5" y1="1218" x2="721.5" y2="1218" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="583.0" y="1197.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Envia la orden y el testigo anti-CSRF</text>
+<text x="583.0" y="1210.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[HTTPS · mTLS]</text>
+<line x1="734.5" y1="1276" x2="1591.5" y2="1276" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="1163.0" y="1255.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Consulta el nivel exigido para este importe</text>
+<text x="1163.0" y="1268.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[gRPC · mTLS]</text>
+<line x1="1591.5" y1="1334" x2="734.5" y2="1334" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="1163.0" y="1326.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Exige nivel de autenticacion reforzado</text>
+<line x1="721.5" y1="1392" x2="444.5" y2="1392" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="583.0" y="1384.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Solicita confirmacion con segundo factor</text>
+<line x1="154.5" y1="1450" x2="1301.5" y2="1450" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)"/>
+<text x="728.0" y="1442.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Confirma con el segundo factor</text>
+<line x1="1301.5" y1="1508" x2="734.5" y2="1508" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<text x="1018.0" y="1487.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Credencial con nivel elevado</text>
+<text x="1018.0" y="1500.0" font-size="11.5" font-weight="400" fill="#6B7280" text-anchor="middle">[OIDC · TLS 1.3]</text>
+<line x1="721.5" y1="1566" x2="444.5" y2="1566" stroke="#3F4A57" stroke-width="1.7" marker-end="url(#fo)" stroke-dasharray="7 5"/>
+<text x="583.0" y="1558.0" font-size="11.5" font-weight="500" fill="#1F2937" text-anchor="middle">Operacion admitida a tramite</text>
+<rect x="50.0" y="110" width="196" height="74" rx="8" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<text x="148.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cliente</text>
+<text x="148.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Persona natural]</text>
+<rect x="340.0" y="110" width="196" height="74" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="438.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Aplicacion Web</text>
+<text x="438.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Angular]</text>
+<rect x="630.0" y="110" width="196" height="74" rx="8" fill="#1168BD" stroke="#0B4884" stroke-width="2"/>
+<text x="728.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Backend de canal web</text>
+<text x="728.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Spring Boot]</text>
+<rect x="920.0" y="110" width="196" height="74" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1018.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Sesion</text>
+<text x="1018.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[ElastiCache Redis]</text>
+<rect x="1210.0" y="110" width="196" height="74" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="1308.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Producto de Identidad</text>
+<text x="1308.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Sistema del banco]</text>
+<rect x="1500.0" y="110" width="196" height="74" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1598.0" y="144.5" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Politica de Riesgo</text>
+<text x="1598.0" y="160.5" font-size="10" fill="#FFFFFF" opacity="0.8" text-anchor="middle">[Contenedor]</text>
+<rect x="1746" y="498" width="284" height="102" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="517" font-size="11" fill="#5B4A0E">RFC 7636 · PKCE hace inutil un codigo de</text>
+<text x="1758" y="531" font-size="11" fill="#5B4A0E">autorizacion interceptado: sin el verificador</text>
+<text x="1758" y="545" font-size="11" fill="#5B4A0E">original no puede canjearse. RFC 9700</text>
+<text x="1758" y="559" font-size="11" fill="#5B4A0E">desaconseja expresamente el flujo de</text>
+<text x="1758" y="573" font-size="11" fill="#5B4A0E">credenciales directas, que enviaria la</text>
+<text x="1758" y="587" font-size="11" fill="#5B4A0E">contrasena a traves del canal (ADR-14).</text>
+<rect x="1746" y="992" width="284" height="102" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="1011" font-size="11" fill="#5B4A0E">ADR-10 · La credencial de acceso NUNCA llega al</text>
+<text x="1758" y="1025" font-size="11" fill="#5B4A0E">navegador. Lo unico que viaja es una cookie</text>
+<text x="1758" y="1039" font-size="11" fill="#5B4A0E">inaccesible desde guiones. Guardarla en el</text>
+<text x="1758" y="1053" font-size="11" fill="#5B4A0E">almacenamiento del navegador la dejaria al</text>
+<text x="1758" y="1067" font-size="11" fill="#5B4A0E">alcance de cualquier codigo inyectado en la</text>
+<text x="1758" y="1081" font-size="11" fill="#5B4A0E">pagina.</text>
+<rect x="1746" y="1570" width="284" height="88" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1758" y="1589" font-size="11" fill="#5B4A0E">ADR-19 · El nivel exigido lo decide la POLITICA</text>
+<text x="1758" y="1603" font-size="11" fill="#5B4A0E">DE RIESGO, no el codigo de cada pantalla. Asi</text>
+<text x="1758" y="1617" font-size="11" fill="#5B4A0E">puede demostrarse ante el supervisor que</text>
+<text x="1758" y="1631" font-size="11" fill="#5B4A0E">politica regia en cada momento, y cambiarla no</text>
+<text x="1758" y="1645" font-size="11" fill="#5B4A0E">obliga a desplegar los canales.</text>
+</svg>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2300" height="1060" viewBox="0 0 2300 1060" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Componentes · Servicio de Auditoria</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">C4 Nivel 3 — Registro inmutable, bitemporal y demostrable ante un tercero</text>
+<rect x="480" y="210" width="1360" height="735" rx="10" fill="none" stroke="#1168BD" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="494" y="234" font-size="13" font-weight="600" fill="#1168BD">Servicio de Auditoria  [Java · Spring Boot]</text>
+<rect x="1960" y="780" width="290" height="150" rx="10" fill="none" stroke="#9CA3AF" stroke-width="2"/>
+<text x="1974" y="804" font-size="13" font-weight="600" fill="#9CA3AF">Leyenda</text>
+<line x1="680.0" y1="155.0" x2="680.0" y2="250.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="614.2" y="162.7" width="131.6" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="680.0" y="177.7" font-size="10.5" fill="#374151" text-anchor="middle">Consume la actividad</text>
+<text x="680.0" y="190.7" font-size="10.5" fill="#6B7280" text-anchor="middle">[Kafka · mTLS · SASL]</text>
+<line x1="840.0" y1="307.5" x2="1000.0" y2="307.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="887.8" y="297.0" width="64.4" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="920.0" y="312.0" font-size="10.5" fill="#374151" text-anchor="middle">Normaliza</text>
+<line x1="1320.0" y1="307.5" x2="1460.0" y2="307.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1357.8" y="297.0" width="64.4" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1390.0" y="312.0" font-size="10.5" fill="#374151" text-anchor="middle">Clasifica</text>
+<line x1="1460.0" y1="365.0" x2="1160.0" y2="430.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1258.2" y="387.0" width="103.6" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1310.0" y="402.0" font-size="10.5" fill="#374151" text-anchor="middle">Encadena el lote</text>
+<line x1="1320.0" y1="487.5" x2="1460.0" y2="487.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1341.0" y="470.5" width="98.0" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1390.0" y="485.5" font-size="10.5" fill="#374151" text-anchor="middle">Entrega el lote</text>
+<text x="1390.0" y="498.5" font-size="10.5" fill="#374151" text-anchor="middle">sellado</text>
+<line x1="1780.0" y1="462.5" x2="1960.0" y2="462.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1821.0" y="445.5" width="98.0" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1870.0" y="460.5" font-size="10.5" fill="#374151" text-anchor="middle">Indexa 24 meses</text>
+<text x="1870.0" y="473.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS · TLS]</text>
+<line x1="1780.0" y1="512.5" x2="1960.0" y2="637.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1804.2" y="558.0" width="131.6" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1870.0" y="573.0" font-size="10.5" fill="#374151" text-anchor="middle">Archiva 7 anos</text>
+<text x="1870.0" y="586.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[AWS SDK · TLS · KMS]</text>
+<line x1="1780.0" y1="827.5" x2="2105.0" y2="705.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1882.3" y="749.2" width="120.4" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1942.5" y="764.2" font-size="10.5" fill="#374151" text-anchor="middle">Recalcula la cadena</text>
+<text x="1942.5" y="777.2" font-size="10.5" fill="#6B7280" text-anchor="middle">[AWS SDK · TLS]</text>
+<line x1="360.0" y1="667.5" x2="520.0" y2="667.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="396.6" y="644.0" width="86.8" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="440.0" y="659.0" font-size="10.5" fill="#374151" text-anchor="middle">Consulta la</text>
+<text x="440.0" y="672.0" font-size="10.5" fill="#374151" text-anchor="middle">evidencia</text>
+<text x="440.0" y="685.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[REST · mTLS]</text>
+<line x1="1320.0" y1="667.5" x2="2105.0" y2="525.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1548.5" y="594.1" width="92.4" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1594.8" y="609.1" font-size="10.5" fill="#374151" text-anchor="middle">Lee el periodo</text>
+<text x="1594.8" y="622.1" font-size="10.5" fill="#374151" text-anchor="middle">reciente</text>
+<text x="1594.8" y="635.1" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS · TLS]</text>
+<rect x="520" y="60" width="320" height="95" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="680.0" y="98.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Bus de eventos</text>
+<text x="680.0" y="116.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Amazon MSK]</text>
+<text x="680.0" y="131.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Acciones de cliente y eventos de sistema</text>
+<rect x="60" y="610" width="300" height="115" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="210.0" y="658.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Consola de Operacion</text>
+<text x="210.0" y="676.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Angular]</text>
+<text x="210.0" y="691.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Operaciones y Cumplimiento</text>
+<path d="M1960,414 a145,14 0 0,1 290,0 l0,97 a145,14 0 0,1 -290,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="2105.0" cy="414" rx="145" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="2105.0" y="462.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Acceso inmediato</text>
+<text x="2105.0" y="480.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Amazon OpenSearch]</text>
+<text x="2105.0" y="495.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">24 meses consultables</text>
+<path d="M1960,584 a145,14 0 0,1 290,0 l0,107 a145,14 0 0,1 -290,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="2105.0" cy="584" rx="145" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="2105.0" y="637.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Archivo probatorio</text>
+<text x="2105.0" y="655.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[S3 con Object Lock]</text>
+<text x="2105.0" y="670.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">7 anos · modo cumplimiento</text>
+<rect x="520" y="250" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="680.0" y="298.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Consumidor de Eventos</text>
+<text x="680.0" y="316.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Spring Kafka]</text>
+<text x="680.0" y="331.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Grupo propio; confirma solo tras persistir.</text>
+<rect x="1000" y="250" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1160.0" y="298.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Normalizador Bitemporal</text>
+<text x="1160.0" y="316.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Bitemporal Record]</text>
+<text x="1160.0" y="331.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Guarda cuando ocurrio el hecho y cuando se registro.</text>
+<rect x="1460" y="250" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1620.0" y="298.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Clasificador por Criticidad</text>
+<text x="1620.0" y="316.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Strategy]</text>
+<text x="1620.0" y="331.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Operacion monetaria, seguridad o navegacion.</text>
+<rect x="1000" y="430" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1160.0" y="478.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Encadenador de Resumenes</text>
+<text x="1160.0" y="496.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Hash Chain]</text>
+<text x="1160.0" y="511.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Cada lote incorpora el resumen del lote anterior.</text>
+<rect x="1460" y="430" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1620.0" y="478.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Escritor por Niveles</text>
+<text x="1620.0" y="496.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Tiering]</text>
+<text x="1620.0" y="511.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Escribe en acceso inmediato y en archivo probatorio.</text>
+<rect x="520" y="610" width="800" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="920.0" y="658.5" font-size="14" class="t" fill="#000000" text-anchor="middle">API de Consulta y Reconstruccion</text>
+<text x="920.0" y="676.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: CQRS de lectura]</text>
+<text x="920.0" y="691.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Reconstruye la actividad de un cliente en una fecha, incluido lo que se le mostro.</text>
+<rect x="1460" y="800" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1620.0" y="848.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Verificador de Integridad</text>
+<text x="1620.0" y="866.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Tarea programada]</text>
+<text x="1620.0" y="881.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Recalcula la cadena y alerta si se rompe.</text>
+<rect x="1976" y="810" width="34" height="26" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<rect x="1976" y="838" width="34" height="26" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<path d="M1976,880 a17,14 0 0,1 34,0 l0,-2 a17,14 0 0,1 -34,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1993.0" cy="880" rx="17" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<rect x="1976" y="894" width="34" height="26" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<rect x="60" y="100" width="300" height="200" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="120" font-size="11" fill="#5B4A0E">La captura es ASINCRONA: la auditoria no anade</text>
+<text x="71" y="134" font-size="11" fill="#5B4A0E">latencia a la operacion ni puede hacerla fallar.</text>
+<text x="71" y="148" font-size="11" fill="#5B4A0E">La garantia de que nada se pierde no viene de</text>
+<text x="71" y="162" font-size="11" fill="#5B4A0E">escribir en linea, sino de la bandeja de salida</text>
+<text x="71" y="176" font-size="11" fill="#5B4A0E">del servicio de origen (ADR-31).</text>
+<rect x="60" y="320" width="300" height="265" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="340" font-size="11" fill="#5B4A0E">Bitemporalidad: registrar CUANDO OCURRIO el hecho</text>
+<text x="71" y="354" font-size="11" fill="#5B4A0E">y CUANDO SE SUPO permite responder a la pregunta</text>
+<text x="71" y="368" font-size="11" fill="#5B4A0E">que hace un auditor, que no es cual es el saldo de</text>
+<text x="71" y="382" font-size="11" fill="#5B4A0E">hoy, sino que le mostro el sistema al cliente el</text>
+<text x="71" y="396" font-size="11" fill="#5B4A0E">dia 14 a las 10:32. Sin las dos fechas, un dato</text>
+<text x="71" y="410" font-size="11" fill="#5B4A0E">corregido despues borra la version que el cliente</text>
+<text x="71" y="424" font-size="11" fill="#5B4A0E">vio.</text>
+<rect x="1960" y="100" width="290" height="270" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1971" y="120" font-size="11" fill="#5B4A0E">El modo de cumplimiento del bloqueo de objetos</text>
+<text x="1971" y="134" font-size="11" fill="#5B4A0E">impide borrar el registro incluso a un</text>
+<text x="1971" y="148" font-size="11" fill="#5B4A0E">administrador de la cuenta. El encadenamiento de</text>
+<text x="1971" y="162" font-size="11" fill="#5B4A0E">resumenes permite DEMOSTRAR ante un tercero que</text>
+<text x="1971" y="176" font-size="11" fill="#5B4A0E">no hubo alteracion, no solo afirmarlo.</text>
+<rect x="2018" y="809" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="829" font-size="11" fill="#5B4A0E">Componente del contenedor</text>
+<rect x="2018" y="837" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="857" font-size="11" fill="#5B4A0E">Otro contenedor del sistema</text>
+<rect x="2018" y="865" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="885" font-size="11" fill="#5B4A0E">Almacen de datos</text>
+<rect x="2018" y="893" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="913" font-size="11" fill="#5B4A0E">Sistema fuera del contenedor</text>
+</svg>

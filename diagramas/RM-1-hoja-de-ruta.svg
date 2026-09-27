@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1660" viewBox="0 0 2400 1660" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Hoja de Ruta · secuencia de entrega en dieciocho meses</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">Cada ola entrega valor verificable al cliente o al supervisor; ninguna depende de que la siguiente exista</text>
+<rect x="60" y="210" width="2280" height="232" rx="10" fill="none" stroke="#6B7280" stroke-width="2"/>
+<text x="74" y="234" font-size="13" font-weight="600" fill="#6B7280">Plataforma</text>
+<rect x="60" y="460" width="2280" height="232" rx="10" fill="none" stroke="#1168BD" stroke-width="2"/>
+<text x="74" y="484" font-size="13" font-weight="600" fill="#1168BD">Canal</text>
+<rect x="60" y="710" width="2280" height="232" rx="10" fill="none" stroke="#0E7490" stroke-width="2"/>
+<text x="74" y="734" font-size="13" font-weight="600" fill="#0E7490">Integracion</text>
+<rect x="60" y="960" width="2280" height="232" rx="10" fill="none" stroke="#065F46" stroke-width="2"/>
+<text x="74" y="984" font-size="13" font-weight="600" fill="#065F46">Seguridad y cumplimiento</text>
+<rect x="60" y="1210" width="2280" height="232" rx="10" fill="none" stroke="#B45309" stroke-width="2"/>
+<text x="74" y="1234" font-size="13" font-weight="600" fill="#B45309">Operacion</text>
+<rect x="400" y="252" width="316" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="558.0" y="272.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Zona de aterrizaje, cuentas, red y</text>
+<text x="558.0" y="289.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">tuberia de despliegue</text>
+<rect x="616" y="310" width="208" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="720.0" y="330.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Arquetipo de servicio y</text>
+<text x="720.0" y="347.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">observabilidad base</text>
+<rect x="1696" y="368" width="424" height="48" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1908.0" y="396.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Arquitectura celular en el camino transaccional</text>
+<rect x="724" y="502" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="936.0" y="530.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Identidad, backend de canal y consulta de movimientos</text>
+<rect x="1156" y="560" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1368.0" y="588.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Transferencias propias y a terceros</text>
+<rect x="1480" y="618" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1692.0" y="646.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Transferencias interbancarias</text>
+<rect x="724" y="752" width="316" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="882.0" y="772.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Capa anticorrupcion y captura de</text>
+<text x="882.0" y="789.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">cambios del Core</text>
+<rect x="940" y="810" width="316" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1098.0" y="830.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Bus de eventos y proyeccion de</text>
+<text x="1098.0" y="847.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">movimientos</text>
+<rect x="1372" y="868" width="532" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1638.0" y="896.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Integracion con onboarding y red de pagos</text>
+<rect x="400" y="1002" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="612.0" y="1022.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Cumplimiento expresado como codigo desde el primer</text>
+<text x="612.0" y="1039.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">despliegue</text>
+<rect x="940" y="1060" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1152.0" y="1088.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Auditoria bitemporal y evidencia probatoria</text>
+<rect x="1804" y="1118" width="532" height="48" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="2070.0" y="1146.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Ensayo de recuperacion y revision del supervisor</text>
+<rect x="1048" y="1252" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1260.0" y="1280.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Consola de operacion y modos degradados</text>
+<rect x="1372" y="1310" width="424" height="48" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1584.0" y="1338.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Objetivos de servicio y guardia establecida</text>
+<rect x="1912" y="1368" width="424" height="48" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="2124.0" y="1396.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Optimizacion de costo por transaccion</text>
+<rect x="400" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="411" y="186" font-size="11" fill="#5B4A0E">Mes 1</text>
+<rect x="508" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="519" y="186" font-size="11" fill="#5B4A0E">Mes 2</text>
+<rect x="616" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="627" y="186" font-size="11" fill="#5B4A0E">Mes 3</text>
+<rect x="724" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="735" y="186" font-size="11" fill="#5B4A0E">Mes 4</text>
+<rect x="832" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="843" y="186" font-size="11" fill="#5B4A0E">Mes 5</text>
+<rect x="940" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="951" y="186" font-size="11" fill="#5B4A0E">Mes 6</text>
+<rect x="1048" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1059" y="186" font-size="11" fill="#5B4A0E">Mes 7</text>
+<rect x="1156" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1167" y="186" font-size="11" fill="#5B4A0E">Mes 8</text>
+<rect x="1264" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1275" y="186" font-size="11" fill="#5B4A0E">Mes 9</text>
+<rect x="1372" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1383" y="186" font-size="11" fill="#5B4A0E">Mes 10</text>
+<rect x="1480" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1491" y="186" font-size="11" fill="#5B4A0E">Mes 11</text>
+<rect x="1588" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1599" y="186" font-size="11" fill="#5B4A0E">Mes 12</text>
+<rect x="1696" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1707" y="186" font-size="11" fill="#5B4A0E">Mes 13</text>
+<rect x="1804" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1815" y="186" font-size="11" fill="#5B4A0E">Mes 14</text>
+<rect x="1912" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="1923" y="186" font-size="11" fill="#5B4A0E">Mes 15</text>
+<rect x="2020" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="2031" y="186" font-size="11" fill="#5B4A0E">Mes 16</text>
+<rect x="2128" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="2139" y="186" font-size="11" fill="#5B4A0E">Mes 17</text>
+<rect x="2236" y="166" width="102" height="30" rx="6" fill="#EEF2F7" stroke="#CBD5E1"/>
+<text x="2247" y="186" font-size="11" fill="#5B4A0E">Mes 18</text>
+<rect x="60" y="1470" width="1140" height="120" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1490" font-size="11" fill="#5B4A0E">POR QUE ESTE ORDEN: la consulta de movimientos va primero porque es el 80 % del uso y solo depende de la proyeccion, no del Core en linea. Las transferencias interbancarias van al final porque</text>
+<text x="71" y="1504" font-size="11" fill="#5B4A0E">dependen de un tercero -la red de pagos- cuyos plazos no controla la entidad.</text>
+<rect x="1230" y="1470" width="1110" height="120" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1241" y="1490" font-size="11" fill="#5B4A0E">LO QUE NO SE APLAZA: el cumplimiento expresado como codigo y la auditoria arrancan en la primera ola. Incorporar controles al final obliga a rehacer lo construido y es la causa habitual de que</text>
+<text x="1241" y="1504" font-size="11" fill="#5B4A0E">un proyecto regulado no llegue a produccion en plazo (ADR-50).</text>
+</svg>

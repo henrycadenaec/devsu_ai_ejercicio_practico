@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1960" height="1400" viewBox="0 0 1960 1400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Diagrama de Contexto · Plataforma de Banca por Internet BP</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">C4 Nivel 1 — Quienes usan el sistema y con que sistemas se relaciona</text>
+<rect x="60" y="250" width="480" height="620" rx="10" fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="74" y="274" font-size="13" font-weight="600" fill="#6B7280">Identidad y vinculacion</text>
+<rect x="60" y="900" width="480" height="360" rx="10" fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="74" y="924" font-size="13" font-weight="600" fill="#6B7280">Sistemas de registro</text>
+<rect x="1420" y="250" width="480" height="360" rx="10" fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="1434" y="274" font-size="13" font-weight="600" fill="#6B7280">Pagos y cumplimiento</text>
+<rect x="1420" y="650" width="480" height="610" rx="10" fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="1434" y="674" font-size="13" font-weight="600" fill="#6B7280">Notificacion al cliente</text>
+<rect x="700" y="935" width="560" height="175" rx="10" fill="none" stroke="#9CA3AF" stroke-width="2"/>
+<text x="714" y="959" font-size="13" font-weight="600" fill="#9CA3AF">Leyenda</text>
+<line x1="745.0" y1="235.0" x2="980.0" y2="620.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="779.9" y="410.5" width="165.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="862.5" y="425.5" font-size="10.5" fill="#374151" text-anchor="middle">Consulta, transfiere y paga</text>
+<text x="862.5" y="438.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS · TLS 1.3]</text>
+<line x1="1275.0" y1="235.0" x2="980.0" y2="620.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1061.7" y="404.0" width="131.6" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1127.5" y="419.0" font-size="10.5" fill="#374151" text-anchor="middle">Atiende incidencias y</text>
+<text x="1127.5" y="432.0" font-size="10.5" fill="#374151" text-anchor="middle">consulta evidencia</text>
+<text x="1127.5" y="445.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS]</text>
+<line x1="760.0" y1="162.5" x2="510.0" y2="560.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="569.2" y="337.8" width="131.6" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="635.0" y="352.8" font-size="10.5" fill="#374151" text-anchor="middle">Se vincula con</text>
+<text x="635.0" y="365.8" font-size="10.5" fill="#374151" text-anchor="middle">reconocimiento facial</text>
+<text x="635.0" y="378.8" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS]</text>
+<line x1="300.0" y1="500.0" x2="300.0" y2="410.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="231.4" y="431.5" width="137.2" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="300.0" y="446.5" font-size="10.5" fill="#374151" text-anchor="middle">Verifica identidad del</text>
+<text x="300.0" y="459.5" font-size="10.5" fill="#374151" text-anchor="middle">solicitante</text>
+<text x="300.0" y="472.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS · REST]</text>
+<line x1="300.0" y1="620.0" x2="300.0" y2="710.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="228.6" y="641.5" width="142.8" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="300.0" y="656.5" font-size="10.5" fill="#374151" text-anchor="middle">Provisiona la identidad</text>
+<text x="300.0" y="669.5" font-size="10.5" fill="#374151" text-anchor="middle">verificada</text>
+<text x="300.0" y="682.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[SCIM 2.0]</text>
+<line x1="700.0" y1="652.5" x2="510.0" y2="770.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="536.4" y="687.8" width="137.2" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="605.0" y="702.8" font-size="10.5" fill="#374151" text-anchor="middle">Delega autenticacion y</text>
+<text x="605.0" y="715.8" font-size="10.5" fill="#374151" text-anchor="middle">obtiene credenciales</text>
+<text x="605.0" y="728.8" font-size="10.5" fill="#6B7280" text-anchor="middle">[OpenID Connect]</text>
+<line x1="700.0" y1="732.5" x2="510.0" y2="972.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="516.0" y="812.7" width="193.2" height="60.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="612.6" y="827.7" font-size="10.5" fill="#374151" text-anchor="middle">Consulta clientes y</text>
+<text x="612.6" y="840.7" font-size="10.5" fill="#374151" text-anchor="middle">productos; ordena</text>
+<text x="612.6" y="853.7" font-size="10.5" fill="#374151" text-anchor="middle">movimientos</text>
+<text x="612.6" y="866.7" font-size="10.5" fill="#6B7280" text-anchor="middle">[MQ · SOAP sobre enlace privado]</text>
+<line x1="510.0" y1="1030.0" x2="765.0" y2="835.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="568.4" y="905.1" width="148.4" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="642.6" y="920.1" font-size="10.5" fill="#374151" text-anchor="middle">Publica movimientos para</text>
+<text x="642.6" y="933.1" font-size="10.5" fill="#374151" text-anchor="middle">proyeccion y aviso</text>
+<text x="642.6" y="946.1" font-size="10.5" fill="#6B7280" text-anchor="middle">[Captura de cambios]</text>
+<line x1="700.0" y1="812.5" x2="510.0" y2="1160.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="500.2" y="1039.2" width="126.0" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="563.2" y="1054.2" font-size="10.5" fill="#374151" text-anchor="middle">Solicita detalle del</text>
+<text x="563.2" y="1067.2" font-size="10.5" fill="#374151" text-anchor="middle">cliente bajo demanda</text>
+<text x="563.2" y="1080.2" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS · REST]</text>
+<line x1="1260.0" y1="652.5" x2="1450.0" y2="350.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1242.4" y="489.9" width="210.0" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1347.4" y="504.9" font-size="10.5" fill="#374151" text-anchor="middle">Envia transferencias a otras</text>
+<text x="1347.4" y="517.9" font-size="10.5" fill="#374151" text-anchor="middle">entidades</text>
+<text x="1347.4" y="530.9" font-size="10.5" fill="#6B7280" text-anchor="middle">[ISO 20022 · red del banco central]</text>
+<line x1="1260.0" y1="702.5" x2="1450.0" y2="520.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1276.2" y="584.1" width="165.2" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1358.8" y="599.1" font-size="10.5" fill="#374151" text-anchor="middle">Criba beneficiario antes de</text>
+<text x="1358.8" y="612.1" font-size="10.5" fill="#374151" text-anchor="middle">reservar fondos</text>
+<text x="1358.8" y="625.1" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS · REST]</text>
+<line x1="1260.0" y1="752.5" x2="1450.0" y2="760.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1290.8" y="732.1" width="98.0" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1339.8" y="747.1" font-size="10.5" fill="#374151" text-anchor="middle">Envia avisos de</text>
+<text x="1339.8" y="760.1" font-size="10.5" fill="#374151" text-anchor="middle">movimiento</text>
+<text x="1339.8" y="773.1" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS firmado]</text>
+<line x1="1260.0" y1="797.5" x2="1450.0" y2="940.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="1300.8" y="862.4" width="154.0" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1377.8" y="877.4" font-size="10.5" fill="#374151" text-anchor="middle">Conmuta si el primario no</text>
+<text x="1377.8" y="890.4" font-size="10.5" fill="#374151" text-anchor="middle">responde</text>
+<text x="1377.8" y="903.4" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS firmado]</text>
+<line x1="1260.0" y1="832.5" x2="1450.0" y2="1120.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1344.2" y="1027.5" width="120.4" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1404.4" y="1042.5" font-size="10.5" fill="#374151" text-anchor="middle">Entrega el aviso al</text>
+<text x="1404.4" y="1055.5" font-size="10.5" fill="#374151" text-anchor="middle">dispositivo</text>
+<text x="1404.4" y="1068.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[HTTPS]</text>
+<circle cx="875.0" cy="110.0" r="18" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<rect x="760" y="128" width="230" height="107" rx="12" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<text x="875.0" y="166.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Cliente</text>
+<text x="875.0" y="184.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Persona natural]</text>
+<text x="875.0" y="199.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Consulta movimientos, transfiere y</text>
+<text x="875.0" y="212.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">paga. Se vincula desde el movil.</text>
+<circle cx="1145.0" cy="110.0" r="18" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<rect x="1030" y="128" width="230" height="107" rx="12" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<text x="1145.0" y="166.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Operaciones y Cumplimiento</text>
+<text x="1145.0" y="184.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Personal del banco]</text>
+<text x="1145.0" y="199.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Atiende incidencias, reprocesa y</text>
+<text x="1145.0" y="212.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">responde requerimientos.</text>
+<rect x="700" y="620" width="560" height="215" rx="8" fill="#1168BD" stroke="#0B4884" stroke-width="2"/>
+<text x="980.0" y="712.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Plataforma de Banca por Internet</text>
+<text x="980.0" y="730.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema en alcance]</text>
+<text x="980.0" y="745.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Canal digital web y movil: consulta de movimientos, transferencias y pagos propios e</text>
+<text x="980.0" y="758.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">interbancarios, notificacion de movimientos y registro de auditoria.</text>
+<rect x="90" y="290" width="420" height="120" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="300.0" y="341.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Proveedor de Verificacion de Identidad</text>
+<text x="300.0" y="359.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema externo]</text>
+<text x="300.0" y="374.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Prueba de vida, verificacion documental y cotejo facial.</text>
+<rect x="90" y="500" width="420" height="120" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="300.0" y="551.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Plataforma de Onboarding Digital</text>
+<text x="300.0" y="569.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema del banco]</text>
+<text x="300.0" y="584.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Vincula clientes nuevos. Capacidad compartida por todos los canales.</text>
+<rect x="90" y="710" width="420" height="120" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="300.0" y="761.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Producto de Identidad</text>
+<text x="300.0" y="779.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema del banco]</text>
+<text x="300.0" y="794.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Autentica y emite credenciales. Se configura, no se desarrolla.</text>
+<rect x="90" y="940" width="420" height="120" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="300.0" y="984.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Core Bancario</text>
+<text x="300.0" y="1002.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema del banco]</text>
+<text x="300.0" y="1017.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Sistema de registro: clientes, productos, saldos, movimientos y</text>
+<text x="300.0" y="1030.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">contabilidad.</text>
+<rect x="90" y="1100" width="420" height="120" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="300.0" y="1151.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Sistema Complementario de Cliente</text>
+<text x="300.0" y="1169.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema del banco]</text>
+<text x="300.0" y="1184.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Amplia la informacion del cliente cuando se requiere en detalle.</text>
+<rect x="1450" y="290" width="420" height="120" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1660.0" y="341.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Red de Pagos Interbancarios</text>
+<text x="1660.0" y="359.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema externo]</text>
+<text x="1660.0" y="374.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Sistema nacional de pagos: liquida por ciclos hacia otras entidades.</text>
+<rect x="1450" y="460" width="420" height="120" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="1660.0" y="511.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Servicio Corporativo de Cribado</text>
+<text x="1660.0" y="529.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema del banco]</text>
+<text x="1660.0" y="544.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Contrasta contra listas restrictivas antes de mover fondos.</text>
+<rect x="1450" y="700" width="420" height="120" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1660.0" y="751.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Proveedor de Mensajeria Primario</text>
+<text x="1660.0" y="769.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema externo]</text>
+<text x="1660.0" y="784.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Avisos por mensaje corto y correo electronico.</text>
+<rect x="1450" y="880" width="420" height="120" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1660.0" y="931.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Proveedor de Mensajeria Alternativo</text>
+<text x="1660.0" y="949.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema externo]</text>
+<text x="1660.0" y="964.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Segundo proveedor con ruta independiente del primario.</text>
+<rect x="1450" y="1060" width="420" height="120" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1660.0" y="1111.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Servicios de Notificacion Push</text>
+<text x="1660.0" y="1129.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema externo]</text>
+<text x="1660.0" y="1144.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Distribucion de avisos a dispositivos moviles.</text>
+<rect x="720" y="969" width="34" height="21" rx="8" fill="#08427B" stroke="#052E56" stroke-width="2"/>
+<rect x="720" y="999" width="34" height="21" rx="8" fill="#1168BD" stroke="#0B4884" stroke-width="2"/>
+<rect x="720" y="1029" width="34" height="21" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<rect x="720" y="1059" width="34" height="21" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<rect x="60" y="90" width="480" height="140" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="110" font-size="11" fill="#5B4A0E">El onboarding es una capacidad corporativa, reutilizable por oficina y por web, y</text>
+<text x="71" y="124" font-size="11" fill="#5B4A0E">por eso queda fuera de la frontera del sistema. Lo que aqui se disena es su</text>
+<text x="71" y="138" font-size="11" fill="#5B4A0E">integracion: al verificar la identidad, provisiona la credencial en el producto de</text>
+<text x="71" y="152" font-size="11" fill="#5B4A0E">identidad.</text>
+<rect x="1420" y="90" width="480" height="140" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1431" y="110" font-size="11" fill="#5B4A0E">La norma obliga a notificar TODOS los movimientos, no solo los originados en el</text>
+<text x="1431" y="124" font-size="11" fill="#5B4A0E">canal. Por eso el disparador es el propio Core y no la aplicacion, y se exigen dos</text>
+<text x="1431" y="138" font-size="11" fill="#5B4A0E">proveedores con rutas independientes entre si.</text>
+<rect x="764" y="966" width="480" height="21" rx="6" fill="none" stroke="none"/>
+<text x="775" y="986" font-size="11" fill="#5B4A0E">Persona que interactua con el sistema</text>
+<rect x="764" y="996" width="480" height="21" rx="6" fill="none" stroke="none"/>
+<text x="775" y="1016" font-size="11" fill="#5B4A0E">Sistema en alcance de este diseno</text>
+<rect x="764" y="1026" width="480" height="21" rx="6" fill="none" stroke="none"/>
+<text x="775" y="1046" font-size="11" fill="#5B4A0E">Sistema del banco, fuera del alcance de construccion</text>
+<rect x="764" y="1056" width="480" height="21" rx="6" fill="none" stroke="none"/>
+<text x="775" y="1076" font-size="11" fill="#5B4A0E">Sistema de un tercero</text>
+<rect x="720" y="1085" width="520" height="20" rx="6" fill="none" stroke="none"/>
+<text x="731" y="1105" font-size="11" fill="#5B4A0E">Linea discontinua: flujo asincrono dirigido por eventos.</text>
+</svg>

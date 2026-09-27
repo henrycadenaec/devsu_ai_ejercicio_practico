@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1340" viewBox="0 0 2400 1340" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Mapa de Capacidades BIAN · dominios de servicio y su realizacion</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">Que dominio de servicio cubre cada pieza y cuales quedan deliberadamente fuera del alcance</text>
+<rect x="60" y="110" width="480" height="560" rx="10" fill="none" stroke="#4F6B7A" stroke-width="2"/>
+<text x="74" y="134" font-size="13" font-weight="600" fill="#4F6B7A">Parte y referencia</text>
+<rect x="660" y="110" width="480" height="560" rx="10" fill="none" stroke="#1168BD" stroke-width="2"/>
+<text x="674" y="134" font-size="13" font-weight="600" fill="#1168BD">Canal y acceso</text>
+<rect x="1260" y="110" width="480" height="560" rx="10" fill="none" stroke="#0E7490" stroke-width="2"/>
+<text x="1274" y="134" font-size="13" font-weight="600" fill="#0E7490">Producto y posicion</text>
+<rect x="1860" y="110" width="480" height="560" rx="10" fill="none" stroke="#065F46" stroke-width="2"/>
+<text x="1874" y="134" font-size="13" font-weight="600" fill="#065F46">Pagos y riesgo</text>
+<rect x="60" y="720" width="2280" height="240" rx="10" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="74" y="744" font-size="13" font-weight="600" fill="#8A8A8A">Dominios contemplados y NO incluidos en el alcance — declarados de forma expresa</text>
+<rect x="82" y="155" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="300.0" y="221.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Party Reference Data Directory</text>
+<text x="300.0" y="239.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="300.0" y="254.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Plataforma de Onboarding</text>
+<rect x="82" y="325" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="300.0" y="391.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Party Life Cycle Management</text>
+<text x="300.0" y="409.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="300.0" y="424.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Plataforma de Onboarding</text>
+<rect x="82" y="495" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="300.0" y="561.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Customer Reference Data Mgmt.</text>
+<text x="300.0" y="579.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="300.0" y="594.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Servicio de Cliente + Core</text>
+<rect x="682" y="155" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="900.0" y="221.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Contact Handler</text>
+<text x="900.0" y="239.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="900.0" y="254.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Apps y backends de canal</text>
+<rect x="682" y="325" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="900.0" y="391.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Party Authentication</text>
+<text x="900.0" y="409.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="900.0" y="424.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Producto de Identidad</text>
+<rect x="682" y="495" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="900.0" y="561.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Customer Access Entitlement</text>
+<text x="900.0" y="579.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="900.0" y="594.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Puerta de enlace + Politica de Riesgo</text>
+<rect x="1282" y="155" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1500.0" y="221.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Current Account</text>
+<text x="1500.0" y="239.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="1500.0" y="254.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Core Bancario</text>
+<rect x="1282" y="325" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1500.0" y="391.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Customer Position</text>
+<text x="1500.0" y="409.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="1500.0" y="424.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Servicio de Movimientos (proyeccion)</text>
+<rect x="1282" y="495" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1500.0" y="561.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Servicing Event History</text>
+<text x="1500.0" y="579.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="1500.0" y="594.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Servicio de Auditoria</text>
+<rect x="1882" y="155" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="2100.0" y="221.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Payment Order</text>
+<text x="2100.0" y="239.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="2100.0" y="254.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Servicio de Transferencias</text>
+<rect x="1882" y="325" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="2100.0" y="391.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Payment Execution</text>
+<text x="2100.0" y="409.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="2100.0" y="424.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Adaptador de Pagos + Red de pagos</text>
+<rect x="1882" y="495" width="436" height="150" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="2100.0" y="561.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Fraud Evaluation</text>
+<text x="2100.0" y="579.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[BIAN Service Domain]</text>
+<text x="2100.0" y="594.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Se realiza en: Politica de Riesgo</text>
+<rect x="85" y="765" width="545" height="165" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="357.5" y="838.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Regulatory Compliance</text>
+<text x="357.5" y="856.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Fuera de alcance]</text>
+<text x="357.5" y="871.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Servicio Corporativo de Cribado: capacidad corporativa</text>
+<rect x="650" y="765" width="545" height="165" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="922.5" y="838.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Card Transaction</text>
+<text x="922.5" y="856.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Fuera de alcance]</text>
+<text x="922.5" y="871.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">No hay tarjetas en el alcance del enunciado</text>
+<rect x="1215" y="765" width="545" height="165" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="1487.5" y="838.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Customer Offer</text>
+<text x="1487.5" y="856.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Fuera de alcance]</text>
+<text x="1487.5" y="871.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Sin venta de productos en el canal</text>
+<rect x="1780" y="765" width="545" height="165" rx="8" fill="#8A8A8A" stroke="#6B6B6B" stroke-width="2"/>
+<text x="2052.5" y="838.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Collateral Administration</text>
+<text x="2052.5" y="856.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Fuera de alcance]</text>
+<text x="2052.5" y="871.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Sin credito en el alcance</text>
+<rect x="60" y="990" width="1120" height="50" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1010" font-size="11" fill="#5B4A0E">QUE ES Y QUE NO ES ESTE MAPA: BIAN describe CAPACIDADES DE NEGOCIO, no una arquitectura tecnica. No dice que haya que crear un microservicio por dominio de servicio. Traducirlo literalmente</text>
+<text x="71" y="1024" font-size="11" fill="#5B4A0E">produce decenas de servicios diminutos que solo se llaman entre si; su valor esta en dar un vocabulario comun y en revelar los huecos.</text>
+<rect x="1230" y="990" width="1110" height="50" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1241" y="1010" font-size="11" fill="#5B4A0E">COMO SE HA USADO AQUI: primero se decidio la descomposicion por capacidad de negocio y perfil operativo (ADR-05, ADR-38), y despues se contrasto con el catalogo BIAN para comprobar que no</text>
+<text x="1241" y="1024" font-size="11" fill="#5B4A0E">faltaba ninguna capacidad relevante y para nombrar las fronteras con un vocabulario que cualquier banco reconoce.</text>
+<rect x="60" y="1180" width="2280" height="50" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="1200" font-size="11" fill="#5B4A0E">LECTURA DE LA CORRESPONDENCIA: varios dominios de servicio se realizan FUERA del sistema que se disena -en el Core, en el producto de identidad o en la plataforma de onboarding-. Esto no es una carencia del diseno: es la consecuencia de respetar los sistemas de registro existentes en lugar de duplicar sus capacidades en el canal (ADR-23, ADR-15, ADR-17). Trazabilidad: H-15 · ADR-05 · criterio 3 de</text>
+<text x="71" y="1214" font-size="11" fill="#5B4A0E">evaluacion.</text>
+</svg>

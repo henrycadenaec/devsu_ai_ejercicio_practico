@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2300" height="1230" viewBox="0 0 2300 1230" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker><style>.t{font-weight:600}.s{opacity:.78}</style></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="40" y="46" font-size="25" font-weight="700" fill="#1F2937">Componentes · Servicio de Transferencias</text>
+<text x="40" y="72" font-size="14" fill="#6B7280">C4 Nivel 3 — Patrones internos y protocolos de comunicacion con su proteccion</text>
+<rect x="480" y="210" width="1360" height="735" rx="10" fill="none" stroke="#1168BD" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="494" y="234" font-size="13" font-weight="600" fill="#1168BD">Servicio de Transferencias  [Java · Spring Boot]</text>
+<rect x="1960" y="1020" width="290" height="150" rx="10" fill="none" stroke="#9CA3AF" stroke-width="2"/>
+<text x="1974" y="1044" font-size="13" font-weight="600" fill="#9CA3AF">Leyenda</text>
+<line x1="1160.0" y1="175.0" x2="1160.0" y2="250.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1066.2" y="195.5" width="187.6" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1160.0" y="210.5" font-size="10.5" fill="#374151" text-anchor="middle">Ordena la operacion</text>
+<text x="1160.0" y="223.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[REST · mTLS · Idempotency-Key]</text>
+<line x1="1000.0" y1="307.5" x2="840.0" y2="307.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="879.4" y="290.5" width="81.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="920.0" y="305.5" font-size="10.5" fill="#374151" text-anchor="middle">Comprueba el</text>
+<text x="920.0" y="318.5" font-size="10.5" fill="#374151" text-anchor="middle">intento</text>
+<line x1="520.0" y1="307.5" x2="360.0" y2="307.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="385.4" y="290.5" width="109.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="440.0" y="305.5" font-size="10.5" fill="#374151" text-anchor="middle">Registra la clave</text>
+<text x="440.0" y="318.5" font-size="10.5" fill="#6B7280" text-anchor="middle">[AWS SDK · TLS]</text>
+<line x1="1160.0" y1="365.0" x2="680.0" y2="430.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="876.6" y="380.5" width="86.8" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="920.0" y="395.5" font-size="10.5" fill="#374151" text-anchor="middle">Intercepta la</text>
+<text x="920.0" y="408.5" font-size="10.5" fill="#374151" text-anchor="middle">accion</text>
+<line x1="680.0" y1="545.0" x2="680.0" y2="610.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="625.4" y="567.0" width="109.2" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="680.0" y="582.0" font-size="10.5" fill="#374151" text-anchor="middle">Anexa el registro</text>
+<line x1="1160.0" y1="365.0" x2="1160.0" y2="430.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1111.0" y="387.0" width="98.0" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1160.0" y="402.0" font-size="10.5" fill="#374151" text-anchor="middle">Valida la orden</text>
+<line x1="1160.0" y1="545.0" x2="1160.0" y2="610.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1113.8" y="567.0" width="92.4" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1160.0" y="582.0" font-size="10.5" fill="#374151" text-anchor="middle">Inicia la saga</text>
+<line x1="1320.0" y1="677.5" x2="1620.0" y2="545.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1415.4" y="594.2" width="109.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1470.0" y="609.2" font-size="10.5" fill="#374151" text-anchor="middle">Consulta riesgo y</text>
+<text x="1470.0" y="622.2" font-size="10.5" fill="#374151" text-anchor="middle">listas</text>
+<line x1="1780.0" y1="462.5" x2="1960.0" y2="452.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1801.4" y="434.0" width="137.2" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1870.0" y="449.0" font-size="10.5" fill="#374151" text-anchor="middle">Nivel de autenticacion</text>
+<text x="1870.0" y="462.0" font-size="10.5" fill="#374151" text-anchor="middle">exigido</text>
+<text x="1870.0" y="475.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[gRPC · mTLS]</text>
+<line x1="1780.0" y1="512.5" x2="1960.0" y2="582.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1813.2" y="534.0" width="131.6" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1879.0" y="549.0" font-size="10.5" fill="#374151" text-anchor="middle">Criba al beneficiario</text>
+<text x="1879.0" y="562.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[REST · mTLS]</text>
+<line x1="1000.0" y1="677.5" x2="840.0" y2="677.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="865.4" y="660.5" width="109.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="920.0" y="675.5" font-size="10.5" fill="#374151" text-anchor="middle">Persiste estado y</text>
+<text x="920.0" y="688.5" font-size="10.5" fill="#374151" text-anchor="middle">evento</text>
+<line x1="520.0" y1="677.5" x2="360.0" y2="672.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="396.6" y="658.0" width="86.8" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="440.0" y="673.0" font-size="10.5" fill="#374151" text-anchor="middle">Escribe y lee</text>
+<text x="440.0" y="686.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[JDBC · TLS]</text>
+<line x1="680.0" y1="745.0" x2="680.0" y2="800.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="625.4" y="762.0" width="109.2" height="21.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="680.0" y="777.0" font-size="10.5" fill="#374151" text-anchor="middle">Bandeja pendiente</text>
+<line x1="1160.0" y1="745.0" x2="1160.0" y2="800.0" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1127.8" y="755.5" width="64.4" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1160.0" y="770.5" font-size="10.5" fill="#374151" text-anchor="middle">Enruta la</text>
+<text x="1160.0" y="783.5" font-size="10.5" fill="#374151" text-anchor="middle">ejecucion</text>
+<line x1="1320.0" y1="857.5" x2="1460.0" y2="857.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1349.4" y="840.5" width="81.2" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1390.0" y="855.5" font-size="10.5" fill="#374151" text-anchor="middle">Delega en el</text>
+<text x="1390.0" y="868.5" font-size="10.5" fill="#374151" text-anchor="middle">esquema</text>
+<line x1="1780.0" y1="832.5" x2="1960.0" y2="812.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1804.2" y="799.0" width="131.6" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1870.0" y="814.0" font-size="10.5" fill="#374151" text-anchor="middle">Reserva y liquida</text>
+<text x="1870.0" y="827.0" font-size="10.5" fill="#374151" text-anchor="middle">fondos</text>
+<text x="1870.0" y="840.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[MQ · enlace privado]</text>
+<line x1="1780.0" y1="882.5" x2="1960.0" y2="942.5" stroke="#666" stroke-width="2" marker-end="url(#fl)"/>
+<rect x="1821.6" y="892.0" width="114.8" height="47.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1879.0" y="907.0" font-size="10.5" fill="#374151" text-anchor="middle">Envia el pago</text>
+<text x="1879.0" y="920.0" font-size="10.5" fill="#374151" text-anchor="middle">interbancario</text>
+<text x="1879.0" y="933.0" font-size="10.5" fill="#6B7280" text-anchor="middle">[ISO 20022 · mTLS]</text>
+<line x1="680.0" y1="915.0" x2="920.0" y2="1030.0" stroke="#666" stroke-width="2" marker-end="url(#fl)" stroke-dasharray="7 5"/>
+<rect x="746.2" y="961.2" width="131.6" height="34.0" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="812.0" y="976.2" font-size="10.5" fill="#374151" text-anchor="middle">Publica el evento</text>
+<text x="812.0" y="989.2" font-size="10.5" fill="#6B7280" text-anchor="middle">[Kafka · mTLS · SASL]</text>
+<rect x="1000" y="80" width="320" height="95" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1160.0" y="118.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Backend de canal</text>
+<text x="1160.0" y="136.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Spring Boot]</text>
+<text x="1160.0" y="151.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Web y movil</text>
+<path d="M60,259 a150,14 0 0,1 300,0 l0,97 a150,14 0 0,1 -300,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="210.0" cy="259" rx="150" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="210.0" y="307.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Idempotencia</text>
+<text x="210.0" y="325.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[DynamoDB]</text>
+<text x="210.0" y="340.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Clave de intento · caduca a 24 h</text>
+<path d="M60,624 a150,14 0 0,1 300,0 l0,97 a150,14 0 0,1 -300,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="210.0" cy="624" rx="150" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="210.0" y="672.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Operaciones</text>
+<text x="210.0" y="690.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Aurora PostgreSQL]</text>
+<text x="210.0" y="705.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Estado y bandeja de salida</text>
+<rect x="1960" y="400" width="290" height="105" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="2105.0" y="450.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Politica de Riesgo</text>
+<text x="2105.0" y="468.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Contenedor]</text>
+<rect x="1960" y="530" width="290" height="105" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<text x="2105.0" y="580.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Cribado Corporativo</text>
+<text x="2105.0" y="598.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Sistema del banco]</text>
+<rect x="1960" y="760" width="290" height="105" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="2105.0" y="810.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Adaptador de Core</text>
+<text x="2105.0" y="828.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Contenedor]</text>
+<rect x="1960" y="890" width="290" height="105" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="2105.0" y="940.0" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Adaptador de Pagos</text>
+<text x="2105.0" y="958.0" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Contenedor]</text>
+<rect x="840" y="1030" width="660" height="85" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<text x="1170.0" y="1063.5" font-size="14" class="t" fill="#FFFFFF" text-anchor="middle">Bus de eventos</text>
+<text x="1170.0" y="1081.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">[Amazon MSK]</text>
+<text x="1170.0" y="1096.5" font-size="10.5" class="s" fill="#FFFFFF" text-anchor="middle">Unica salida de eventos del servicio</text>
+<rect x="520" y="250" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="680.0" y="292.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Filtro de Idempotencia</text>
+<text x="680.0" y="310.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Idempotent Receiver]</text>
+<text x="680.0" y="325.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Registra la clave del intento o devuelve la respuesta</text>
+<text x="680.0" y="338.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">original.</text>
+<rect x="1000" y="250" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1160.0" y="298.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Controlador REST</text>
+<text x="1160.0" y="316.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Spring MVC]</text>
+<text x="1160.0" y="331.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Valida el contrato y extrae la clave de idempotencia.</text>
+<rect x="520" y="430" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="680.0" y="472.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Interceptor de Auditoria</text>
+<text x="680.0" y="490.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Interceptor]</text>
+<text x="680.0" y="505.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Registra toda accion sin que el desarrollador</text>
+<text x="680.0" y="518.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">intervenga.</text>
+<rect x="1000" y="430" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1160.0" y="478.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Validador de Operacion</text>
+<text x="1160.0" y="496.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Specification]</text>
+<text x="1160.0" y="511.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">IBAN, titularidad, limites y hora de corte.</text>
+<rect x="1460" y="430" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1620.0" y="472.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Cliente de Riesgo y Cribado</text>
+<text x="1620.0" y="490.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Resilience4j]</text>
+<text x="1620.0" y="505.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Tiempo limite, reintento, corte de circuito y</text>
+<text x="1620.0" y="518.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">compartimento.</text>
+<rect x="520" y="610" width="320" height="135" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="680.0" y="668.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Repositorio y Bandeja de Salida</text>
+<text x="680.0" y="686.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Spring Data]</text>
+<text x="680.0" y="701.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Escribe el estado y el evento en la MISMA transaccion.</text>
+<rect x="1000" y="610" width="320" height="135" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1160.0" y="662.0" font-size="14" class="t" fill="#000000" text-anchor="middle">Orquestador de Saga</text>
+<text x="1160.0" y="680.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Process Manager]</text>
+<text x="1160.0" y="695.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Maquina de estados persistida. Ordena los pasos y sus</text>
+<text x="1160.0" y="708.0" font-size="10.5" class="s" fill="#000000" text-anchor="middle">compensaciones.</text>
+<rect x="520" y="800" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="680.0" y="848.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Publicador de la Bandeja</text>
+<text x="680.0" y="866.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Transactional Outbox]</text>
+<text x="680.0" y="881.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Lee la bandeja y publica en el bus.</text>
+<rect x="1000" y="800" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1160.0" y="848.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Selector de Estrategia</text>
+<text x="1160.0" y="866.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Strategy / Router]</text>
+<text x="1160.0" y="881.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Elige el adaptador segun el tipo de operacion.</text>
+<rect x="1460" y="800" width="320" height="115" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<text x="1620.0" y="848.5" font-size="14" class="t" fill="#000000" text-anchor="middle">Adaptadores de Esquema</text>
+<text x="1620.0" y="866.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">[Patron: Adapter]</text>
+<text x="1620.0" y="881.5" font-size="10.5" class="s" fill="#000000" text-anchor="middle">Uno por esquema: propias, terceros e interbancaria.</text>
+<rect x="1976" y="1050" width="34" height="26" rx="8" fill="#85BBF0" stroke="#5D82A8" stroke-width="2"/>
+<rect x="1976" y="1078" width="34" height="26" rx="8" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<path d="M1976,1120 a17,14 0 0,1 34,0 l0,-2 a17,14 0 0,1 -34,0 z" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<ellipse cx="1993.0" cy="1120" rx="17" ry="14" fill="#438DD5" stroke="#2E6295" stroke-width="2"/>
+<rect x="1976" y="1134" width="34" height="26" rx="8" fill="#4F6B7A" stroke="#37505C" stroke-width="2"/>
+<rect x="60" y="100" width="300" height="135" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="120" font-size="11" fill="#5B4A0E">Una clave de idempotencia repetida NO vuelve a</text>
+<text x="71" y="134" font-size="11" fill="#5B4A0E">ejecutar la orden: devuelve la respuesta que se</text>
+<text x="71" y="148" font-size="11" fill="#5B4A0E">dio la primera vez. Es lo que impide el doble</text>
+<text x="71" y="162" font-size="11" fill="#5B4A0E">cargo ante un reintento del cliente o de la red.</text>
+<rect x="60" y="390" width="300" height="200" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="410" font-size="11" fill="#5B4A0E">El orden de los pasos no es arbitrario: validar,</text>
+<text x="71" y="424" font-size="11" fill="#5B4A0E">cribar y evaluar el riesgo ocurren SIEMPRE antes</text>
+<text x="71" y="438" font-size="11" fill="#5B4A0E">de reservar fondos. Cribar despues de mover el</text>
+<text x="71" y="452" font-size="11" fill="#5B4A0E">dinero invertiria la logica del cumplimiento y</text>
+<text x="71" y="466" font-size="11" fill="#5B4A0E">dejaria a la entidad habiendo ejecutado la</text>
+<text x="71" y="480" font-size="11" fill="#5B4A0E">operacion que debia impedir (ADR-35).</text>
+<rect x="60" y="760" width="300" height="185" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="71" y="780" font-size="11" fill="#5B4A0E">El estado y el evento se escriben en la MISMA</text>
+<text x="71" y="794" font-size="11" fill="#5B4A0E">transaccion. De ahi que exista un solo camino de</text>
+<text x="71" y="808" font-size="11" fill="#5B4A0E">salida hacia el bus: si el dato se confirmo, su</text>
+<text x="71" y="822" font-size="11" fill="#5B4A0E">evento existe; si no se confirmo, no hay evento</text>
+<text x="71" y="836" font-size="11" fill="#5B4A0E">huerfano (ADR-24).</text>
+<rect x="1960" y="100" width="290" height="270" rx="6" fill="#FFF6D6" stroke="#D9B94C"/>
+<text x="1971" y="120" font-size="11" fill="#5B4A0E">Todo tramo interno va cifrado y con</text>
+<text x="1971" y="134" font-size="11" fill="#5B4A0E">autenticacion mutua de ambos extremos. La</text>
+<text x="1971" y="148" font-size="11" fill="#5B4A0E">credencial no se reutiliza entre saltos: cada</text>
+<text x="1971" y="162" font-size="11" fill="#5B4A0E">llamada obtiene una de audiencia especifica</text>
+<text x="1971" y="176" font-size="11" fill="#5B4A0E">mediante intercambio de credencial (ADR-20), de</text>
+<text x="1971" y="190" font-size="11" fill="#5B4A0E">modo que una credencial capturada en un tramo no</text>
+<text x="1971" y="204" font-size="11" fill="#5B4A0E">sirve en otro.</text>
+<rect x="2018" y="1049" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="1069" font-size="11" fill="#5B4A0E">Componente del contenedor</text>
+<rect x="2018" y="1077" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="1097" font-size="11" fill="#5B4A0E">Otro contenedor del sistema</text>
+<rect x="2018" y="1105" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="1125" font-size="11" fill="#5B4A0E">Almacen de datos</text>
+<rect x="2018" y="1133" width="220" height="20" rx="6" fill="none" stroke="none"/>
+<text x="2029" y="1153" font-size="11" fill="#5B4A0E">Sistema fuera del contenedor</text>
+</svg>
